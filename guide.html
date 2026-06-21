@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Step-by-Step Guidance | SBI DigiSaathi AI</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="logo"></span><span>DigiSaathi AI</span></a><nav class="navlinks"><a href="index.html">Home</a><a href="chat.html">AI Chat</a><a href="recommendation.html">Savings Plan</a><a class="active" href="guide.html">Step Guide</a><a href="safety.html">Safety</a></nav><button class="btn btn-secondary mobile-only" onclick="go('safety.html')">Safety</button></div></header>
+<main>
+  <section class="container page-hero">
+    <span class="badge">Digital Onboarding Journey</span>
+    <h1 class="page-title">Opening your <span>Recurring Deposit</span></h1>
+    <p class="lead">DigiSaathi converts the recommendation into simple, confidence-building instructions for mobile banking adoption.</p>
+  </section>
+  <section class="container grid-2">
+    <div class="panel">
+      <h2>Guided Journey</h2>
+      <div class="timeline">
+        <div class="step" data-step="1"><h3>Open the official YONO SBI app</h3><p>Use only the official app from authorized app stores. Login using MPIN/User ID without sharing credentials with anyone.</p></div>
+        <div class="step" data-step="2"><h3>Go to the Deposits section</h3><p>From the main dashboard, tap the Deposits tile to view saving options such as FD and RD.</p></div>
+        <div class="step" data-step="3"><h3>Select Open Recurring Deposit</h3><p>Choose Recurring Deposit for monthly savings. Enter monthly amount, tenure and linked savings account.</p></div>
+        <div class="step" data-step="4"><h3>Review before confirming</h3><p>Check amount, tenure, nominee and maturity details carefully. Do not continue if the page looks unofficial.</p></div>
+        <div class="step" data-step="5"><h3>Set monthly reminder</h3><p>DigiSaathi can create a reminder so the customer develops a consistent saving habit.</p></div>
+      </div>
+      <button class="btn btn-primary" onclick="addReminder()">🔔 Set a Reminder</button>
+      <a class="btn btn-secondary" href="safety.html">Need safety help?</a>
+    </div>
+    <aside class="panel">
+      <p class="eyebrow">Voice Guide</p>
+      <h2>Explain it simply</h2>
+      <p class="sub">For first-time or elderly users, the assistant can read each step aloud in English or Hindi and explain banking terms in simple words.</p>
+      <br>
+      <div class="cards" style="grid-template-columns:1fr;gap:14px">
+        <article class="card"><h3>Hindi support</h3><p>“हर महीने ₹1000 बचाने के लिए Recurring Deposit एक सुरक्षित विकल्प है.”</p></article>
+        <article class="card"><h3>Contextual nudges</h3><p>If the user pauses, the assistant can ask: “Do you want me to explain this step?”</p></article>
+        <article class="card"><h3>Branch assist fallback</h3><p>If the customer feels unsure, DigiSaathi suggests visiting the nearest branch or calling official SBI support.</p></article>
+      </div>
+    </aside>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner"><a class="btn btn-secondary" href="recommendation.html">← Back to Plan</a><a class="btn btn-primary" href="safety.html">View Safety Layer →</a></div></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

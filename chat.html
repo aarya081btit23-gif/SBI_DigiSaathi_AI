@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Chat | SBI DigiSaathi AI</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header class="topbar"><div class="container nav"><a class="brand" href="index.html"><span class="logo"></span><span>DigiSaathi AI</span></a><nav class="navlinks"><a href="index.html">Home</a><a class="active" href="chat.html">AI Chat</a><a href="recommendation.html">Savings Plan</a><a href="guide.html">Step Guide</a><a href="safety.html">Safety</a></nav><button class="btn btn-secondary mobile-only" onclick="go('recommendation.html')">Plan</button></div></header>
+<main>
+  <section class="container page-hero">
+    <span class="badge">Conversational Onboarding</span>
+    <h1 class="page-title">Chat with <span>DigiSaathi AI</span></h1>
+    <p class="lead">The assistant understands the user’s goal and converts it into a safe digital banking adoption journey.</p>
+  </section>
+  <section class="container chat-shell">
+    <aside class="sidebar">
+      <a class="side-link active" href="chat.html">💬 Active Assistant</a>
+      <a class="side-link" href="recommendation.html">₹ Recommended Savings Plan</a>
+      <a class="side-link" href="guide.html">🧭 Step-by-Step Guide</a>
+      <a class="side-link" href="safety.html">🛡 Safety & Support</a>
+      <button class="btn btn-secondary btn-wide" onclick="toggleLanguage()">🌐 Hindi / English</button>
+    </aside>
+    <section class="chat-card">
+      <div class="chat-header">
+        <div><b>DigiSaathi AI</b><br><span class="tiny">Your secure digital banking companion</span></div>
+        <span class="pill">Safety First</span>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="message user">I don't know how to use mobile banking properly.</div>
+        <div class="message ai">I am here to help. What is your goal today? Do you want to pay bills, save money, invest monthly, or protect your family?</div>
+        <div class="choice-row">
+          <button class="choice" onclick="fillGoal('I want to pay my electricity bill digitally')">Pay Bills</button>
+          <button class="choice" onclick="fillGoal('I want to save ₹1000 every month')">Save Money</button>
+          <button class="choice" onclick="fillGoal('I want to learn about monthly investment options')">Invest Monthly</button>
+          <button class="choice" onclick="fillGoal('I want protection for my family')">Protect Family</button>
+        </div>
+        <div class="warning"><b>!</b><span>Never share your OTP, PIN, password or card details. DigiSaathi will never ask for private banking credentials.</span></div>
+      </div>
+      <div class="chat-input">
+        <input id="chatInput" value="I want to save ₹1000 every month" aria-label="Ask DigiSaathi AI" />
+        <button class="btn btn-primary" onclick="simulateChat()">Send</button>
+        <button class="btn btn-secondary" onclick="toggleLanguage()">🎙 Voice</button>
+      </div>
+    </section>
+  </section>
+</main>
+<footer class="footer"><div class="container footer-inner"><span><b>Next:</b> view the AI-generated recommendation.</span><a class="btn btn-primary" href="recommendation.html">Go to Savings Plan →</a></div></footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

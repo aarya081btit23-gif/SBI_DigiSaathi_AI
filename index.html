@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBI DigiSaathi AI | Digital Banking Adoption Coach</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span><span>DigiSaathi AI</span></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="chat.html">AI Chat</a>
+        <a href="recommendation.html">Savings Plan</a>
+        <a href="guide.html">Step Guide</a>
+        <a href="safety.html">Safety</a>
+      </nav>
+      <button class="btn btn-secondary mobile-only" onclick="go('chat.html')">Start</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <div>
+        <span class="badge">SBI Hackathon • Problem Statement 2: Digital Adoption</span>
+        <h1>Make digital banking <span>simple, safe and personal.</span></h1>
+        <p class="lead">SBI DigiSaathi AI is an Agentic AI-powered banking coach that understands a customer’s goal, recommends the right SBI digital service, and guides them step-by-step in simple language.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="chat.html">Try Prototype →</a>
+          <a class="btn btn-secondary" href="#process">View Process Flow</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><strong>24×7</strong><span>AI digital guidance</span></div>
+          <div class="stat"><strong>0 OTP</strong><span>Never asks for secrets</span></div>
+          <div class="stat"><strong>5-step</strong><span>Adoption journey</span></div>
+        </div>
+      </div>
+      <div class="phone-wrap">
+        <div class="glow"></div>
+        <div class="phone" aria-label="DigiSaathi mobile preview">
+          <div class="phone-screen">
+            <div class="phone-head">
+              <div class="avatar">AI</div>
+              <span class="pill">Secure Banking Assistant</span>
+            </div>
+            <div class="bubble user">I want to save ₹1000 every month.</div>
+            <div class="bubble ai">I can help. Based on your goal, a Recurring Deposit is a safe digital savings option. I’ll explain maturity, safety tips and steps in YONO.</div>
+            <div class="quick-grid">
+              <a class="quick" href="recommendation.html">View Plan</a>
+              <a class="quick" href="guide.html">Open RD Guide</a>
+              <a class="quick" href="safety.html">Safety Tips</a>
+              <a class="quick" href="chat.html">Ask More</a>
+            </div>
+            <div class="warning success"><b>✓</b><span>Prototype flow: Goal → AI recommendation → Step-by-step digital adoption → reminder and feedback.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="problem">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Problem</p>
+            <h2>Customers want digital banking, but need <span>guided confidence.</span></h2>
+          </div>
+          <p class="sub">Many first-time, elderly and less digitally confident users avoid services like UPI, mobile banking, bill payments, deposits and insurance because the journey feels complex or unsafe.</p>
+        </div>
+        <div class="cards">
+          <article class="card"><div class="icon">?</div><h3>Low awareness</h3><p>Customers often do not know which digital service fits their goal: saving, paying bills, investing or protection.</p></article>
+          <article class="card"><div class="icon">🛡</div><h3>Fear of fraud</h3><p>Users hesitate because of OTP/PIN scams and confusion between official and fake banking channels.</p></article>
+          <article class="card"><div class="icon">↗</div><h3>Drop-offs</h3><p>Even interested customers leave midway when forms, terms or app navigation becomes difficult.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="solution">
+      <div class="container grid-2">
+        <div class="panel">
+          <p class="eyebrow">Solution</p>
+          <h2>SBI DigiSaathi AI</h2>
+          <p class="sub">A contextual, adaptive and safety-aware AI assistant that converts a customer goal into a guided digital banking journey.</p>
+          <br>
+          <a class="btn btn-primary" href="chat.html">Launch AI Chat</a>
+        </div>
+        <div class="cards" style="grid-template-columns:1fr;gap:14px">
+          <article class="card"><h3>Conversational onboarding</h3><p>Asks simple questions and understands intent, digital literacy, language preference and goal.</p></article>
+          <article class="card"><h3>Personalized recommendation</h3><p>Suggests services like YONO, UPI, RD/FD, bill payment, insurance or investment education.</p></article>
+          <article class="card"><h3>Safe execution guide</h3><p>Gives official-channel guidance and never asks for OTP, PIN, password or card secrets.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <p class="eyebrow">Process Flow / Architecture</p>
+        <h2>Agentic AI flow from user goal to digital adoption</h2>
+        <div class="flow" style="margin-top:26px">
+          <div class="flow-step"><b>1</b><span>User Input</span><p>Text/voice query such as “I want to save ₹1000 every month.”</p></div>
+          <div class="flow-step"><b>2</b><span>AI Understanding</span><p>Detects intent, goal, preferred language and digital comfort level.</p></div>
+          <div class="flow-step"><b>3</b><span>Decision Engine</span><p>Chooses the best next journey: savings, payments, insurance or onboarding.</p></div>
+          <div class="flow-step"><b>4</b><span>Recommendation</span><p>Shows suitable SBI digital service with benefits and risk/safety notes.</p></div>
+          <div class="flow-step"><b>5</b><span>Guidance</span><p>Provides step-by-step instructions, reminders and feedback loop.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cards">
+          <article class="card"><div class="icon">💬</div><h3>AI Chat Demo</h3><p>Start a conversation and select a financial goal.</p><br><a class="btn btn-secondary" href="chat.html">Open Chat</a></article>
+          <article class="card"><div class="icon">₹</div><h3>Recommended Plan</h3><p>View a personalized RD plan for monthly savings.</p><br><a class="btn btn-secondary" href="recommendation.html">View Plan</a></article>
+          <article class="card"><div class="icon">✓</div><h3>Step Guide</h3><p>Follow a simple journey to open an RD digitally.</p><br><a class="btn btn-secondary" href="guide.html">View Guide</a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><b>SBI DigiSaathi AI</b><br><span class="tiny">Prototype by Aarya Soni, B.Tech IT, IGDTUW.</span></div>
+      <span class="tiny">Demo only • No real transaction or SBI backend integration.</span>
+    </div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
