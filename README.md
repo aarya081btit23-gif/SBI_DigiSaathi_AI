@@ -124,51 +124,7 @@ The solution can create commercial value for banks by improving customer engagem
 
 With multilingual support and voice-based interaction in future versions, the solution can scale across diverse customer groups and regions.
 
----
 
-## Folder Structure
-
-```text
-SBI_DigiSaathi_AI_Prototype_Final/
-│
-├── index.html
-├── chat.html
-├── recommendation.html
-├── guide.html
-├── safety.html
-│
-├── assets/
-│   ├── styles.css
-│   └── app.js
-│
-└── README.md
-```
-
----
-
-## How to Run Locally
-
-1. Download or clone the repository.
-2. Open the project folder.
-3. Open `index.html` in any browser.
-4. Navigate through the connected pages using the buttons and navbar.
-
-No backend setup is required for the current prototype.
-
----
-
-## Deployment on GitHub Pages
-
-1. Create a new GitHub repository.
-2. Upload all project files to the repository.
-3. Go to **Settings**.
-4. Open **Pages** from the sidebar.
-5. Under **Build and deployment**, select:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-6. Save the settings.
-7. GitHub will generate a live project link.
 
 ---
 
@@ -185,13 +141,6 @@ No backend setup is required for the current prototype.
 
 ---
 
-## Author
-
-**Aarya Soni**  
-B.Tech Information Technology  
-Indira Gandhi Delhi Technical University for Women (IGDTUW), Delhi
-
----
 
 ## Project Theme
 
